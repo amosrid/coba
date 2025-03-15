@@ -699,3 +699,142 @@ footer {
         font-size: 1.5rem;
     }
 }
+/* Desktop Enhancements - Add these at the end of your file */
+
+/* Base improvements for larger screens */
+@media (min-width: 1025px) {
+    /* Better container sizing for desktop */
+    .container {
+        max-width: 1200px;
+        padding: 0 30px;
+    }
+    
+    /* Improved section spacing */
+    section {
+        padding: 120px 0;
+    }
+    
+
+    
+    .logo {
+        font-size: 5.5rem;
+    }
+    
+    .header-text {
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+    
+    /* Better gallery layout for desktop */
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    
+    .gallery-item {
+        height: 380px;
+    }
+    
+    /* Image container specific styling */
+    #container03 {
+        max-height: 220px;
+    }
+    
+    #container04, #container02 {
+        max-width: 600px;
+    }
+    
+    /* Product cards improvement */
+    .product-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    /* Footer enhancements */
+    .footer-logo {
+        font-size: 2.2rem;
+    }
+}
+
+/* Very large screens */
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .gallery-item {
+        height: 420px;
+    }
+    
+    .section-title {
+        font-size: 3rem;
+    }
+    
+    .gallery-title {
+        font-size: 1.4rem;
+    }
+    
+    .gallery-description {
+        font-size: 1.1rem;
+    }
+}
+
+/* Fix for very high-resolution screens */
+@media (min-width: 2000px) {
+    body {
+        max-width: 2000px;
+        margin: 0 auto;
+        box-shadow: 0 0 50px rgba(0,0,0,0.1);
+    }
+    
+    .gallery-item {
+        height: 450px;
+    }
+}
+
+/* Additional specific styling for container images */
+[id^="container"] {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+[id^="container"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* First set of container styling */
+#container03, #container04, #container02 {
+    margin-bottom: 40px;
+}
+
+/* Second set of container styling */
+#container13, #container14, #container15 {
+    object-fit: contain;
+    background-color: white;
+}
+
+/* Third set of container styling */
+#container18, #container20, #container16 {
+    object-fit: cover;
+}
+
+/* Fourth set of container styling */
+#container01, #container05, #container17, #container28, #container24, #container21 {
+    object-fit: cover;
+}
+
+/* Styling for additional items containers */
+#container11, #container25, #container09, #container27, #container26, #container19 {
+    object-position: center;
+}
+
+/* Bundle options styling */
+#container07, #container08, #container23 {
+    object-fit: contain;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* Product container styling */
+#container10 {
+    object-fit: cover;
+}
