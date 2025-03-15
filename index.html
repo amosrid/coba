@@ -11,21 +11,12 @@
     <link rel="stylesheet" href="stylesn.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div class="nav-container">
-            <a href="#" class="nav-logo">PROJECT: miracle</a>
-            <button class="menu-toggle" id="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="nav-links" id="nav-links">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#gallery" class="nav-link">Gallery</a>
-                <a href="#products" class="nav-link">Products</a>
-            </div>
-        </div>
-    </nav>
+    <!-- SVG Icon Definition -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" display="none" width="0" height="0">
+        <symbol id="icon-1c13576468284a37278ea9bf6776a7f6" viewBox="0 0 40 40">
+            <path d="M34.4,23.1c-0.2,0.3-0.5,0.4-0.8,0.4L12.2,26c0.2,0.8,0.3,1.3,0.3,1.4c0,0.2-0.2,0.7-0.5,1.3h18.8 c0.4,0,0.7,0.1,0.9,0.4c0.3,0.3,0.4,0.6,0.4,0.9c0,0.4-0.1,0.7-0.4,0.9c-0.3,0.3-0.6,0.4-0.9,0.4h-1.3H11.2H9.9 c-0.4,0-0.7-0.1-0.9-0.4c-0.3-0.3-0.4-0.6-0.4-0.9c0-0.2,0.1-0.4,0.2-0.6c0.1-0.3,0.2-0.5,0.3-0.7c0.1-0.2,0.3-0.5,0.4-0.8 c0.2-0.3,0.3-0.5,0.3-0.6l-3.6-18H2c-0.4,0-0.7-0.1-0.9-0.4C0.8,8.7,0.7,8.4,0.7,8c0-0.4,0.1-0.7,0.4-0.9C1.3,6.8,1.6,6.7,2,6.7h5.2 c0.2,0,0.4,0,0.6,0.1C8,6.9,8.1,7,8.2,7.1c0.1,0.1,0.2,0.3,0.3,0.5C8.6,7.9,8.6,8,8.7,8.2c0,0.1,0.1,0.3,0.1,0.6 c0,0.3,0.1,0.4,0.1,0.5h24.6c0.4,0,0.7,0.1,0.9,0.4c0.3,0.3,0.4,0.6,0.4,0.9v11.6C34.8,22.5,34.6,22.8,34.4,23.1z M32.5,11.5 c-0.1-0.1-0.1-0.1-0.5-0.1c-3.6,0-22.7,0-22.7,0l2.4,12.2c0,0,17.4-1.9,20.5-2.2c0.3,0,0.2-0.1,0.3-0.2c0.1-0.1,0.1-0.1,0.1-0.4 c0-1.5,0-7.3,0-8.9C32.6,11.7,32.6,11.6,32.5,11.5z M31.4,32.2c0.5,0.5,0.8,1.1,0.8,1.9c0,0.7-0.3,1.3-0.8,1.9 c-0.5,0.5-1.1,0.8-1.8,0.8c-0.7,0-1.3-0.3-1.8-0.8c-0.5-0.5-0.8-1.1-0.8-1.9c0-0.7,0.3-1.3,0.8-1.9c0.5-0.5,1.1-0.8,1.8-0.8 C30.2,31.4,30.8,31.7,31.4,32.2z M13,32.2c0.5,0.5,0.8,1.1,0.8,1.9c0,0.7-0.3,1.3-0.8,1.9c-0.5,0.5-1.1,0.8-1.8,0.8 c-0.7,0-1.3-0.3-1.8-0.8c-0.5-0.5-0.8-1.1-0.8-1.9c0-0.7,0.3-1.3,0.8-1.9c0.5-0.5,1.1-0.8,1.8-0.8C11.9,31.4,12.5,31.7,13,32.2z"></path>
+        </symbol>
+    </svg>
 
     <!-- Header / Hero Section -->
     <header id="home">
@@ -39,9 +30,15 @@
             <span style="left:90%; animation-delay: 2s;"></span>
         </div>
         <div class="header-content">
-            <p class="header-subtitle fade-in">JESSEJESSU WORKS PRESENTS</p>
-            <h1 class="logo fade-in delay-1">PROJECT: miracle</h1>
-            <p class="header-text fade-in delay-2">An experimental print project that brings together artistry and craftsmanship, creating unique artbooks and prints that inspire and captivate.</p>
+            <p class="header-subtitle fade-in">
+                <img id="container03" src="assets/images/image01.png" alt="">
+            </p>
+            <h1 class="logo fade-in delay-1">PROJECT: MiraclE</h1>
+            <p class="header-text fade-in delay-2">MiraclE 昨年のプロジェクトから再構築されました。このプロジェクトのメインブランディングとして抽象を採用します(2024) <br>
+                (+) <br>
+                MiraclE was rebuild from my 2023 project and take some experiments with prints material <br>
+                A small step into bigger projects provided by Jessejessu Works.
+            </p>
         </div>
         <a href="#about" class="scroll-down fade-in delay-3">
             <i class="fas fa-chevron-down"></i>
@@ -51,14 +48,12 @@
     <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container">
-            <div class="section-heading fade-in">
-                <h2 class="section-title">About The Project</h2>
-                <div class="accent-line"></div>
-                <p class="section-subtitle">Experimental prints project that produced Artbook and Artprint by Jessejessu Works</p>
+            <div class="fade-in">
+                <img id="container04" src="assets/images/container02.jpeg" alt="" width="300px">
             </div>
             
-            <div class="about-content fade-in delay-1">
-                <p>PROJECT: miracle represents a fusion of experimental print techniques and artistic vision. Each piece is carefully crafted with attention to detail, creating unique visual experiences that bridge the gap between traditional and contemporary art forms.</p>
+            <div class="fade-in delay-1">
+                <img id="container02" src="assets/images/container04.jpeg" alt="" width="300px">
             </div>
         </div>
     </section>
@@ -66,65 +61,163 @@
     <!-- Gallery Section -->
     <section id="gallery" class="gallery-section">
         <div class="container">
-            <div class="section-heading fade-in">
-                <h2 class="section-title">Gallery</h2>
-                <div class="accent-line"></div>
-                <p class="section-subtitle">Explore our collection of artbooks and prints</p>
-            </div>
-
             <div class="gallery-wrapper fade-in delay-1">
-                <h3 class="gallery-title">Artbook & Artprint Collection</h3>
-                <p class="gallery-description">Experimental prints project that produced Artbook and Artprint. Done by Jessejessu Works📥</p>
+                <h3 class="gallery-title">°ArtBundle°</h3>
+                <p class="gallery-description">- Bundle pack preview - <br>
+                    This projects contain 3 items such as artbook, keychain, and shirt
+                </p>
                 
                 <div class="gallery">
-                    <div class="gallery-item" data-caption="Artbook Preview">
-                        <img src="https://source.unsplash.com/random/600x800?artbook" alt="Artbook Preview">
-                        <h4 class="gallery-item-title">Artbook Preview</h4>
+                    <div class="gallery-item" data-caption="Art Bundle 1">
+                        <img id="container22" src="assets/images/Artbundle1.jpg" alt="bundle Preview">
+                        <h4 class="gallery-item-title">Art bundle 1</h4>
                     </div>
-                    <div class="gallery-item" data-caption="Artprint Sample">
-                        <img src="https://source.unsplash.com/random/600x800?print" alt="Artprint Sample">
-                        <h4 class="gallery-item-title">Artprint Sample</h4>
+                    <div class="gallery-item" data-caption="Art Bundle 2">
+                        <img id="container06" src="assets/images/Artbundle2.jpg" alt="bundle Preview">
+                        <h4 class="gallery-item-title">Art bundle 2</h4>
                     </div>
-                    <div class="gallery-item" data-caption="Bundle Preview">
-                        <img src="https://source.unsplash.com/random/600x800?bundle" alt="Bundle Preview">
-                        <h4 class="gallery-item-title">Bundle Preview</h4>
+                    <div class="gallery-item" data-caption="Art Bundle 3">
+                        <img id="container12" src="assets/images/Artbundle3.jpg" alt="Bundle Preview">
+                        <h4 class="gallery-item-title">Art bundle 3</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Art Bundle 3">
+                        <img id="container12" src="assets/images/Artbundle4.jpg" alt="Bundle Preview">
+                        <h4 class="gallery-item-title">Art bundle 4</h4>
                     </div>
                 </div>
             </div>
 
             <div class="gallery-wrapper fade-in delay-2">
-                <div class="gallery-note">
-                    <p>Every price and bundle has been arranged in such a way. Does not serve orders outside the existing system ☝️</p>
-                </div>
+                <h3 class="gallery-title">°FirstMiracle°<br> (Artbook)</h3>
+                <p class="gallery-description">First edition artbook with the combination concept of layering page using transparent paper as media with total 12pages.<br> (14.5x21.5cm)</p>
                 
                 <div class="gallery">
-                    <div class="gallery-item" data-caption="Pricing Example">
-                        <img src="https://source.unsplash.com/random/600x800?pricing" alt="Pricing Example">
-                        <h4 class="gallery-item-title">Pricing Example</h4>
+                    <div class="gallery-item" data-caption="First Miracle Preview">
+                        <img id="container13" src="assets/images/container13.jpg" alt="First Miracle Preview">
+                        <h4 class="gallery-item-title">First Miracle 1</h4>
                     </div>
-                    <div class="gallery-item" data-caption="Artbook Example">
-                        <img src="https://source.unsplash.com/random/600x800?book" alt="Artbook Example">
-                        <h4 class="gallery-item-title">Artbook Example</h4>
+                    <div class="gallery-item" data-caption="First Miracle Sample">
+                        <img id="container14" src="assets/images/container14.jpg" alt="First Miracle Sample">
+                        <h4 class="gallery-item-title">First Miracle 2</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="First Miracle Preview">
+                        <img id="container15" src="assets/images/container15.jpg" alt="First Miracle Preview">
+                        <h4 class="gallery-item-title">First Miracle 3</h4>
                     </div>
                 </div>
             </div>
 
             <div class="gallery-wrapper fade-in delay-3">
-                <h3 class="gallery-title">[Artbook can be replaced/switch with Art Prints] 👇</h3>
+                <h3 class="gallery-title">°Multi Layer° Prints</h3>
+                <p class="gallery-description">Combination artwork prints separated in 12 each layer. Combine 3-4 layers and you can have a new experience of prints.<br> (14.5x21.5cm)</p>
                 
                 <div class="gallery">
-                    <div class="gallery-item" data-caption="Art Print Alternative">
-                        <img src="https://source.unsplash.com/random/600x800?art" alt="Art Print Alternative">
-                        <h4 class="gallery-item-title">Art Print Alternative</h4>
+                    <div class="gallery-item" data-caption="Multi Layer Print">
+                        <img id="container18" src="assets/images/container18.jpg" alt="Multi Layer Print">
+                        <h4 class="gallery-item-title">Multi Layer Print 1</h4>
                     </div>
-                    <div class="gallery-item" data-caption="Additional Items">
-                        <img src="https://source.unsplash.com/random/600x800?items" alt="Additional Items">
-                        <h4 class="gallery-item-title">Additional Items</h4>
+                    <div class="gallery-item" data-caption="Multi Layer Print">
+                        <img id="container20" src="assets/images/container20.jpg" alt="Multi Layer Print">
+                        <h4 class="gallery-item-title">Multi Layer Print 2</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Multi Layer Print">
+                        <img id="container16" src="assets/images/container16.jpg" alt="Multi Layer Print">
+                        <h4 class="gallery-item-title">Multi Layer Print 3</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-wrapper fade-in delay-4">
+                <h3 class="gallery-title">°SecondMiracle°<br> (Artbook)</h3>
+                <p class="gallery-description">Second edition artbook using the same concept with more developed visual graphics with total 16pages.<br> More complex and details than the previous one.<br> (14.5x21.5cm)</p>
+                
+                <div class="gallery">
+                    <div class="gallery-item" data-caption="Second Miracle">
+                        <img id="container01" src="assets/images/container01.jpg" alt="Second Miracle">
+                        <h4 class="gallery-item-title">Second Miracle 1</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Second Miracle">
+                        <img id="container05" src="assets/images/container05.jpg" alt="Second Miracle">
+                        <h4 class="gallery-item-title">Second Miracle 2</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Second Miracle">
+                        <img id="container17" src="assets/images/container17.jpg" alt="Second Miracle">
+                        <h4 class="gallery-item-title">Second Miracle 3</h4>
                     </div>
                 </div>
                 
-                <div class="gallery-note">
-                    <p>[Additional items are not sold separately🙏]</p>
+                <div class="gallery">
+                    <div class="gallery-item" data-caption="Second Miracle">
+                        <img id="container28" src="assets/images/container28.jpg" alt="Second Miracle">
+                        <h4 class="gallery-item-title">Second Miracle 4</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Second Miracle">
+                        <img id="container24" src="assets/images/container24.jpg" alt="Second Miracle">
+                        <h4 class="gallery-item-title">Second Miracle 5</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Second Miracle">
+                        <img id="container21" src="assets/images/container21.jpg" alt="Second Miracle">
+                        <h4 class="gallery-item-title">Second Miracle 6</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-note">
+                <p>( For this Bundle, you can replace/switch the artbook for the art prints with the same rate )</p>
+            </div>
+            
+            <div class="gallery-wrapper fade-in delay-5">
+                <h3 class="gallery-title">Additional Items</h3>
+                
+                <div class="gallery">
+                    <div class="gallery-item" data-caption="Additional Item">
+                        <img id="container11" src="assets/images/container11.jpg" alt="Additional Item">
+                        <h4 class="gallery-item-title">Additional Item 1</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Additional Item">
+                        <img id="container25" src="assets/images/container25.jpg" alt="Additional Item">
+                        <h4 class="gallery-item-title">Additional Item 2</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Additional Item">
+                        <img id="container09" src="assets/images/container09.jpg" alt="Additional Item">
+                        <h4 class="gallery-item-title">Additional Item 3</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery">
+                    <div class="gallery-item" data-caption="Additional Item">
+                        <img id="container27" src="assets/images/container27.jpg" alt="Additional Item">
+                        <h4 class="gallery-item-title">Additional Item 4</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Additional Item">
+                        <img id="container26" src="assets/images/container26.jpg" alt="Additional Item">
+                        <h4 class="gallery-item-title">Additional Item 5</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Additional Item">
+                        <img id="container19" src="assets/images/container19.jpg" alt="Additional Item">
+                        <h4 class="gallery-item-title">Additional Item 6</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-note">
+                <p>(Additional items such as keychain and shirt are not sold except as bundles!)</p>
+            </div>
+            
+            <div class="gallery-wrapper fade-in delay-6">                
+                <div class="gallery">
+                    <div class="gallery-item" data-caption="Bundle Option">
+                        <img id="container07" src="assets/images/container07.jpg" alt="Bundle Option">
+                        <h4 class="gallery-item-title">Bundle Option 1</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Bundle Option">
+                        <img id="container08" src="assets/images/container08.jpg" alt="Bundle Option">
+                        <h4 class="gallery-item-title">Bundle Option 2</h4>
+                    </div>
+                    <div class="gallery-item" data-caption="Bundle Option">
+                        <img id="container23" src="assets/images/container23.jpg" alt="Bundle Option">
+                        <h4 class="gallery-item-title">Bundle Option 3</h4>
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,98 +227,27 @@
     <section id="products" class="products-section">
         <div class="container">
             <div class="section-heading fade-in">
-                <h2 class="section-title">Our Products</h2>
+                <h2 class="section-title">[ MiraclE Project ]</h2>
                 <div class="accent-line"></div>
-                <p class="section-subtitle">Explore our unique collection of artbooks and prints</p>
             </div>
             
             <div class="product-cards fade-in delay-1">
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="https://source.unsplash.com/random/600x800?artbook,print" alt="Signature Artbook">
+                        <img id="container10" src="assets/images/container10.jpg" alt="Miracle Project">
                     </div>
                     <div class="product-details">
-                        <h3 class="product-name">Signature Artbook</h3>
-                        <p class="product-price">Contact for pricing</p>
-                        <p class="product-description">Our flagship artbook featuring a collection of experimental prints and original artwork.</p>
-                        <a href="https://www.instagram.com/jessejessu?igsh=Z3Z2NTU2Ymd3dGNk" class="product-button" target="_blank">Order on Instagram</a>
+                        <h3 class="product-name">ORDER NOW</h3>
+                        <p class="product-description">Experience the magic of experimental prints.</p>
+                        <ul class="buttons01">
+                            <li>
+                                <a href="https://www.instagram.com/jessejessu?igsh=Z3Z2NTU2Ymd3dGNk" class="product-button" role="button" target="_blank">
+                                    <svg aria-labelledby="buttons01-icon-1-title"><title id="buttons01-icon-1-title">Cart (Alt)</title><use xlink:href="#icon-1c13576468284a37278ea9bf6776a7f6"></use></svg>
+                                    <span class="label">Book Order</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://source.unsplash.com/random/600x800?art,print" alt="Premium Art Prints">
-                    </div>
-                    <div class="product-details">
-                        <h3 class="product-name">Premium Art Prints</h3>
-                        <p class="product-price">Contact for pricing</p>
-                        <p class="product-description">High-quality art prints available in various sizes, perfect for collectors and art enthusiasts.</p>
-                        <a href="https://www.instagram.com/jessejessu?igsh=Z3Z2NTU2Ymd3dGNk" class="product-button" target="_blank">Order on Instagram</a>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://source.unsplash.com/random/600x800?bundle,collection" alt="Complete Bundle">
-                    </div>
-                    <div class="product-details">
-                        <h3 class="product-name">Complete Bundle</h3>
-                        <p class="product-price">Contact for pricing</p>
-                        <p class="product-description">The full experience including artbook, prints, and exclusive additional items.</p>
-                        <a href="https://www.instagram.com/jessejessu?igsh=Z3Z2NTU2Ymd3dGNk" class="product-button" target="_blank">Order on Instagram</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section class="process-section">
-        <div class="container">
-            <div class="section-heading fade-in">
-                <h2 class="section-title">Our Creative Process</h2>
-                <div class="accent-line"></div>
-                <p class="section-subtitle">How we bring artworks from concept to creation</p>
-            </div>
-            
-            <div class="process-steps fade-in delay-1">
-                <div class="process-step">
-                    <div class="step-number">1</div>
-                    <h3 class="step-title">Concept & Design</h3>
-                    <p class="step-description">Each piece begins with meticulous planning and artistic conceptualization, considering themes and visual impact.</p>
-                </div>
-                
-                <div class="process-step">
-                    <div class="step-number">2</div>
-                    <h3 class="step-title">Experimental Printing</h3>
-                    <p class="step-description">We employ various experimental techniques to achieve unique textures and visual effects in our prints.</p>
-                </div>
-                
-                <div class="process-step">
-                    <div class="step-number">3</div>
-                    <h3 class="step-title">Crafting & Assembly</h3>
-                    <p class="step-description">Each artbook and print is carefully assembled with attention to detail and quality control.</p>
-                </div>
-                
-                <div class="process-step">
-                    <div class="step-number">4</div>
-                    <h3 class="step-title">Delivery</h3>
-                    <p class="step-description">We ensure your order reaches you in perfect condition, carefully packaged to protect the artwork.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-content fade-in">
-                <h2 class="cta-title">Transform Your Vision Into Art</h2>
-                <p class="cta-text">Experience the magic of experimental prints. Connect with us to commission your own unique artwork or purchase from our existing collection.</p>
-                <div class="cta-buttons">
-                    <a href="https://www.instagram.com/jessejessu?igsh=Z3Z2NTU2Ymd3dGNk" class="primary-button" target="_blank">
-                        <i class="fab fa-instagram"></i> Order on Instagram
-                    </a>
                 </div>
             </div>
         </div>
@@ -258,16 +280,16 @@
 
 <script>
     // Wait for the document to be fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-// Navigation menu toggle for mobile
-const menuToggle = document.getElementById('menu-toggle');
-const navLinks = document.getElementById('nav-links');
+    document.addEventListener('DOMContentLoaded', function() {
+    // Navigation menu toggle for mobile
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
 
-if (menuToggle) {
-    menuToggle.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-    });
-}
+    if (menuToggle) {
+        menuToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+    }
 
 // Close mobile menu when clicking outside
 document.addEventListener('click', function(event) {
@@ -537,42 +559,42 @@ if (lastUpdated) {
 // Create dynamic background particles
 createBackgroundParticles();
 
-function createBackgroundParticles() {
-    const bgAnimation = document.querySelector('.bg-animation');
-    if (!bgAnimation) return;
-    
-    // Clear existing particles
-    bgAnimation.innerHTML = '';
-    
-    // Create random number of particles (10-20)
-    const particleCount = Math.floor(Math.random() * 11) + 10;
-    
-    for (let i = 0; i < particleCount; i++) {
-        const particle = document.createElement('span');
+    function createBackgroundParticles() {
+        const bgAnimation = document.querySelector('.bg-animation');
+        if (!bgAnimation) return;
         
-        // Random position
-        const leftPosition = Math.random() * 100;
+        // Clear existing particles
+        bgAnimation.innerHTML = '';
         
-        // Random size
-        const size = Math.floor(Math.random() * 15) + 5;
+        // Create random number of particles (10-20)
+        const particleCount = Math.floor(Math.random() * 11) + 10;
         
-        // Random animation delay
-        const delay = Math.random() * 5;
-        
-        // Random animation duration
-        const duration = Math.random() * 10 + 15;
-        
-        // Apply styles
-        particle.style.left = leftPosition + '%';
-        particle.style.width = size + 'px';
-        particle.style.height = size + 'px';
-        particle.style.animationDelay = delay + 's';
-        particle.style.animationDuration = duration + 's';
-        
-        bgAnimation.appendChild(particle);
+        for (let i = 0; i < particleCount; i++) {
+            const particle = document.createElement('span');
+            
+            // Random position
+            const leftPosition = Math.random() * 100;
+            
+            // Random size
+            const size = Math.floor(Math.random() * 15) + 5;
+            
+            // Random animation delay
+            const delay = Math.random() * 5;
+            
+            // Random animation duration
+            const duration = Math.random() * 10 + 15;
+                        // Apply styles
+                        particle.style.left = leftPosition + '%';
+            particle.style.width = size + 'px';
+            particle.style.height = size + 'px';
+            particle.style.animationDelay = delay + 's';
+            particle.style.animationDuration = duration + 's';
+            
+            bgAnimation.appendChild(particle);
+        }
     }
-}
 });
+
 </script>
 </body>
 </html>
